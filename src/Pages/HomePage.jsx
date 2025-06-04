@@ -2,6 +2,7 @@ import React from "react";
 import Navbar from "../Components/Navbar";
 import { Link } from "react-router-dom";
 import Footer from "../Components/Footer";
+import banner from '../assets/banner.png'
 
 const HomePage = () => {
   return (
@@ -14,7 +15,7 @@ const HomePage = () => {
             <button className="bg-primary text-white px-5 py-3 rounded-full font-semibold cursor-pointer">Start Project</button>
           </div>
           <div className="flex items-center justify-center">
-            <img className="md:w-[70%]" src="/src/assets/banner.png" alt="" />
+            <img className="md:w-[70%]" src={banner} alt="" />
           </div>
       </section>
       <Footer/>

@@ -1,6 +1,7 @@
 import React from "react";
 import Navbar from "../Components/Navbar";
 import Footer from "../Components/Footer";
+import banner from '../assets/about-banner.png'
 
 const About = () => {
   return (
@@ -13,7 +14,7 @@ const About = () => {
         </div>
         <div className="md:flex md:flex-row md:justify-between md:text-start gap-7 flex flex-col justify-center items-center text-center">
           <div className="flex items-center">
-            <img src="/src/assets/about-banner.png" alt="about banner" />
+            <img src={banner} alt="about banner" />
           </div>
           <div className="flex flex-col justify-center gap-5 font-medium md:text-base text-sm   ">
             <p>We move with make a Creative Strategy for help your business goal, we help to improve your income by a services we have. make your content look interesting and make people look for your business</p>

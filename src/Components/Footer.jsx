@@ -1,12 +1,13 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import logo from '../assets/icon/logo-background.png'
 
 const Footer = () => {
   return (
     <footer className="flex flex-col gap-7 h-fit bg-secondary text-white md:px-15 px-7 py-10">
       <div className="md:grid md:grid-cols-3 sm:grid-cols-2 grid-cols-1">
         <div>
-          <img className="sm:w-30 w-30" src="/src/assets/icon/logo-background.png" alt="logo" />
+          <img className="sm:w-30 w-30" src={logo} alt="logo" />
         </div>
         <div className="flex flex-col sm:my-0 my-7">
           <p className="font-bold text-lg pb-5">Company</p>
